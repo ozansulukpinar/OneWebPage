@@ -17,6 +17,7 @@ function Click() {
     $('#1').delay(750).fadeOut();
     $('#2').delay(500).fadeOut();
     $('#3').delay(250).fadeOut();
+    setTimeout(function () { window.open("https://github.com/ozansulukpinar/OneWebPage", "_self") }, 1250); //Open the web page of source code
 }
 
 $('#0, #1, #2, #3').on('click', Click);
